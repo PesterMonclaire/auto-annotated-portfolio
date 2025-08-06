@@ -10,33 +10,6 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
-    colors: colors-f
-    backgroundSize: full
-    title: Luke legrand
-    subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-36
-          - pb-48
-          - pl-4
-          - pr-4
-        flexDirection: row-reverse
-        textAlign: left
-        borderWidth: 0
-    type: HeroSection
-    actions: []
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -64,6 +37,33 @@ sections:
           - pr-4
         textAlign: left
     subtitle: Projects
+  - elementId: ''
+    colors: colors-f
+    backgroundSize: full
+    title: Luke legrand
+    subtitle: >-
+      This is my info—I’m sharing it all this with ya’ll to impress you with all
+      the hard work I’ve done in the past few years. Once you’re impressed, you
+      can continue to scroll down to see more details and credentials about me.
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-48
+          - pl-4
+          - pr-4
+        flexDirection: row-reverse
+        textAlign: left
+        borderWidth: 0
+    type: HeroSection
+    actions: []
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
