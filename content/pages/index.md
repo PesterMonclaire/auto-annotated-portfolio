@@ -37,4 +37,14 @@ sections:
         borderWidth: 0
     type: HeroSection
     actions: []
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        borderWidth: 1
 ---
